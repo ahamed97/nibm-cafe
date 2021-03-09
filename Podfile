@@ -6,5 +6,7 @@ target 'Cafe' do
   use_frameworks!
 
   # Pods for Cafe
+  pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
 
 end
