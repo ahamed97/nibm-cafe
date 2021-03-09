@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login-->
         <scene sceneID="WBs-yF-Tjl">
             <objects>
-                <viewController id="jBn-oK-4tb" sceneMemberID="viewController">
+                <viewController title="Login" id="jBn-oK-4tb" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NiX-oX-7Gn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -39,6 +39,9 @@
                                 <color key="backgroundColor" red="0.75561857310000002" green="0.76209482129999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="Fx7-eO-o1k" kind="show" id="mSy-u6-ItD"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcp-CN-2lh">
                                 <rect key="frame" x="152" y="744" width="110" height="50"/>
@@ -70,10 +73,10 @@
             </objects>
             <point key="canvasLocation" x="-568.1159420289855" y="91.741071428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Register-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Cafe" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Register" id="BYZ-38-t0r" customClass="ViewController" customModule="Cafe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -123,10 +126,10 @@
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="92.410714285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Location-->
         <scene sceneID="V95-aP-RXK">
             <objects>
-                <viewController id="tt4-0h-FJn" sceneMemberID="viewController">
+                <viewController title="Location" id="tt4-0h-FJn" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jx3-wQ-b5G">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -160,10 +163,10 @@
             </objects>
             <point key="canvasLocation" x="789.85507246376812" y="90.401785714285708"/>
         </scene>
-        <!--Item-->
+        <!--Profile-->
         <scene sceneID="tZu-yL-Ocy">
             <objects>
-                <viewController id="gXB-P9-D2g" sceneMemberID="viewController">
+                <viewController title="Profile" id="gXB-P9-D2g" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ddD-s1-DaK">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -176,10 +179,10 @@
             </objects>
             <point key="canvasLocation" x="2442" y="923"/>
         </scene>
-        <!--Item-->
+        <!--Order-->
         <scene sceneID="6jt-u8-gYE">
             <objects>
-                <viewController id="4d4-sh-Mta" sceneMemberID="viewController">
+                <viewController title="Order" id="4d4-sh-Mta" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hJi-lc-IKT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -239,10 +242,10 @@
             </objects>
             <point key="canvasLocation" x="2823" y="175"/>
         </scene>
-        <!--Tab Bar Controller-->
+        <!--Main Home-->
         <scene sceneID="v4l-1D-zl2">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Fx7-eO-o1k" sceneMemberID="viewController">
+                <tabBarController title="Main Home" automaticallyAdjustsScrollViewInsets="NO" id="Fx7-eO-o1k" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="8YV-OE-cHL"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="mxc-Jt-TrD">
@@ -260,10 +263,10 @@
             </objects>
             <point key="canvasLocation" x="1434.7826086956522" y="91.741071428571431"/>
         </scene>
-        <!--View Controller-->
+        <!--Forget Password-->
         <scene sceneID="Z2X-uW-VkX">
             <objects>
-                <viewController id="uNI-JW-CkL" sceneMemberID="viewController">
+                <viewController title="Forget Password" id="uNI-JW-CkL" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RTc-kN-8Df">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -295,10 +298,10 @@
             </objects>
             <point key="canvasLocation" x="-578.26086956521749" y="903.34821428571422"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="cKE-RC-TTH">
             <objects>
-                <viewController id="pqz-A5-Qr6" sceneMemberID="viewController">
+                <viewController title="Home" id="pqz-A5-Qr6" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="S8F-9g-PRH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -312,6 +315,9 @@
             <point key="canvasLocation" x="680" y="923"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hJb-B3-PAV"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="logo" width="341" height="341"/>
         <image name="map" width="341" height="341"/>
