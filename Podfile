@@ -7,6 +7,7 @@ target 'Cafe' do
 
   # Pods for Cafe
   pod 'Firebase/Auth'
+  pod 'GeoFire'
   pod 'Firebase/Firestore'
 
 end
