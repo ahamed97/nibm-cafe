@@ -278,7 +278,7 @@
         <!--Forget Password-->
         <scene sceneID="Z2X-uW-VkX">
             <objects>
-                <viewController title="Forget Password" id="uNI-JW-CkL" sceneMemberID="viewController">
+                <viewController title="Forget Password" id="uNI-JW-CkL" customClass="PasswordResetViewController" customModule="Cafe" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RTc-kN-8Df">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -300,12 +300,18 @@
                                 <color key="backgroundColor" red="0.75561857310000002" green="0.76209482129999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Reset Password"/>
+                                <connections>
+                                    <action selector="BtnReset:" destination="uNI-JW-CkL" eventType="touchUpInside" id="DbD-Dd-76q"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="8ct-rr-eNp"/>
                     </view>
                     <navigationItem key="navigationItem" id="VKO-2d-BIc"/>
+                    <connections>
+                        <outlet property="email" destination="Vfj-sC-nI5" id="08P-fk-8tV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5ov-dU-2td" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -347,7 +353,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="92g-eQ-1sa"/>
+        <segue reference="hJb-B3-PAV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="logo" width="341" height="341"/>

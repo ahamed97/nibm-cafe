@@ -16,6 +16,7 @@
 		D737D852261739CF0027F944 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D737D851261739CF0027F944 /* LoginViewController.swift */; };
 		D737D854261739F00027F944 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D737D853261739F00027F944 /* LocationViewController.swift */; };
 		D7E683B7262A8668008B16F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7E683B6262A8668008B16F5 /* GoogleService-Info.plist */; };
+		D7E683B9262B277D008B16F5 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E683B8262B277D008B16F5 /* PasswordResetViewController.swift */; };
 		E61C677D52387F9082758324 /* Pods_Cafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244891B434D454218C7E3B3 /* Pods_Cafe.framework */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		D737D851261739CF0027F944 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D737D853261739F00027F944 /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		D7E683B6262A8668008B16F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7E683B8262B277D008B16F5 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				D72404B825F62D29002A1BB5 /* RegisterController.swift */,
 				D737D851261739CF0027F944 /* LoginViewController.swift */,
 				D737D853261739F00027F944 /* LocationViewController.swift */,
+				D7E683B8262B277D008B16F5 /* PasswordResetViewController.swift */,
 				D72404BA25F62D29002A1BB5 /* Main.storyboard */,
 				D72404BD25F62D2B002A1BB5 /* Assets.xcassets */,
 				D72404BF25F62D2B002A1BB5 /* LaunchScreen.storyboard */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D737D854261739F00027F944 /* LocationViewController.swift in Sources */,
+				D7E683B9262B277D008B16F5 /* PasswordResetViewController.swift in Sources */,
 				D737D852261739CF0027F944 /* LoginViewController.swift in Sources */,
 				D72404B925F62D29002A1BB5 /* RegisterController.swift in Sources */,
 				D72404B525F62D29002A1BB5 /* AppDelegate.swift in Sources */,
