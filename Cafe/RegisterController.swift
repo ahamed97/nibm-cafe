@@ -30,7 +30,6 @@ class RegisterController: UIViewController {
                         {
                             
                         } else{
-                            //Navigate to the ChatViewController
                             self.performSegue(withIdentifier: "RegisterToLocation", sender: self)
                         }
                     }
