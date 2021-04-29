@@ -25,7 +25,7 @@ class RegisterController: UIViewController {
                     self.present(alert, animated: true, completion: nil)
                 } else {
                     let db = Firestore.firestore()
-                    db.collection("Userinfos").addDocument(data: ["phone" : self.phone.text ,"user_id" : authResult!.user.uid ,"user_email" : authResult!.user.email ]) { (error) in
+                    db.collection("Userinfos").addDocument(data: ["phone" : self.phone.text ,"user_id" : authResult!.user.uid ,"user_email" : authResult!.user.email, "user_type" : "customer" ]) { (error) in
                         if error != nil
                         {
                             
